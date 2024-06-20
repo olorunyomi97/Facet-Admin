@@ -1,0 +1,184 @@
+.logo-position{
+    padding-top:30px;
+    padding-left: 60px;
+}
+.login-card {
+    background: #1C1C1C;
+    border-radius: 33px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.modal-card {
+    background: #1C1C1C;
+    border-radius: 33px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.login-input-style{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.login-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.welcome {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #E3E3E3;
+    
+}
+/* .forgot-pwd{
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+.welcome-text {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #9FA5C0;
+    
+}
+.login-form {
+    background: #1C1C1C !important;
+    /* border: 1px solid #3F3F3F !important; */
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    width: 100% !important;
+    color: #9FA5C0 !important;
+    padding-left: 20px !important;
+}
+.login-input {
+    margin-bottom: 30px;
+}
+.forgot-password{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #B6B6B6;
+}
+.login-btn{
+    background: #1FCC79 !important;
+    border-radius: 15px !important;
+    border: none !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    width: 100% !important;
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+    margin: 0px 0px !important;
+}
+
+/* .modal-contentt  {
+    -webkit-border-radius: 33px !important;
+    -moz-border-radius: 33px !important;
+    border-radius: 33px !important; 
+} */
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border: none !important;
+    border-radius: 31px !important;
+    outline: 0;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    border-radius: 31px !important;
+    border: none !important;
+    outline: none !important;
+}
+.push-celebs {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #E3E3E3;   
+}
+
+.create-celebs {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    color: #E3E3E3;   
+}
+.switch_fan{
+    color: #1FCC79 !important;
+}
+
+.block_fan{
+    color: #ff0505!important;
+}
+
+.celeb-input {
+    margin-bottom: 17px;
+}
+
+.celebs-btn{
+    background: #1FCC79;
+    border-radius: 10px;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    color: white;
+}
+
+.celeb-form {
+    background: #1C1C1C;
+    border: 1px solid #3F3F3F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    color: #9FA5C0;
+    padding-left: 20px;
+    
+}

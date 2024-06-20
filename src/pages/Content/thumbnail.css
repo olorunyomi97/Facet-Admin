@@ -1,0 +1,8 @@
+thumbnails-container {
+    padding: 8px 0 1rem 0 !important;
+    border-top: none !important; 
+    border-bottom: none !important;
+    position: relative !important;
+    user-select: none !important;
+    background: red;
+}

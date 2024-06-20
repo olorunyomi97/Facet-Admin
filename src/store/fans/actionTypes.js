@@ -1,0 +1,10 @@
+export const GET_FAN = 'GET_FAN';
+export const GET_FAN_SUCCESS = 'GET_FAN_SUCCESS';
+export const UPGRADE_FAN = 'UPGRADE_FAN';
+export const UPGRADE_FAN_SUCCESS = 'UPGRADE_FAN_SUCCESS';
+export const BLOCK_FAN = 'BLOCK_FAN';
+export const BLOCK_FAN_SUCCESS = 'BLOCK_FAN_SUCCESS';
+export const GET_FAN_DETAIL_SUCCESS = 'GET_FAN_DETAIL_SUCCESS';
+export const GET_FAN_DETAILS = 'GET_FAN_DETAILS';
+
+export const API_ERROR = 'API_ERROR';

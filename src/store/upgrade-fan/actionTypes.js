@@ -1,0 +1,4 @@
+export const UPGRADE_FAN = "UPGRADE_FAN"
+export const UPGRADE_FAN_SUCCESS = "UPGRADE_FAN_SUCCESS"
+
+export const API_ERROR = "API_ERROR"

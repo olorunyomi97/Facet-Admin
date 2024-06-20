@@ -1,0 +1,4 @@
+export const GET_FINANCES = 'GET_FINANACES';
+export const GET_FINANACES_SUCCESS = 'GET_FINANCES_OVERVIEW';
+
+export const API_ERROR = 'API_ERROR';

@@ -1,0 +1,22 @@
+.fanect-top-border {
+    background: rgba(28, 28, 28, 0.6);
+    backdrop-filter: blur(34px);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body[data-sidebar="dark"] .mm-active .active {
+    color: #1FCC79 !important;
+}
+
+.vertical-border {
+    list-style-type: none;
+    border-left: 2px solid #1FCC79;
+    margin-bottom: 10px;
+    margin-left:50px;
+  
+}
+
+.fanect-celeb{
+    padding-left: 13px !important;   
+}

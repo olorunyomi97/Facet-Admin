@@ -1,0 +1,224 @@
+.text-dark-green {
+    color:#006C38 !important;
+}
+
+.celeb-font {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #E3E3E3;
+}
+
+.bg-softer-success {
+    background-color: rgba(52, 195, 143, 0.10) !important;
+}
+
+.bg-softer-danger {
+    background-color: rgba(244, 106, 106, 0.10) !important;
+}
+
+.card-radio {
+    white-space: break-spaces !important;
+    border: 3px solid #dbdbdb!important;
+    transition: all .2s;
+    color: #aaa !important;
+}
+
+.card-radio span.h5 {
+    color: #aaa !important;
+}
+
+.card-radio-input:checked + .card-radio {
+    border-color: #3ab44a !important;
+}
+
+.card-radio-input:checked + .card-radio span.h5 {
+    color: #3ab44a !important;
+}
+
+.react-tel-input .form-control {
+    width:100%
+}
+
+.react-tagsinput-input {
+    color: hsl(0,0%,20%);
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: calc(100% - 8px);
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#containerDetail .card-radio {
+    padding:0.5rem !important;
+}
+
+.css-1rhbuit-multiValue {
+    background-color: hsl(0,0%,0%) !important;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.css-12jo7m5 {
+    border-radius: 2px;
+    color: hsl(0,0%,90%) !important;
+    font-size: 85%;
+    overflow: hidden;
+    padding: 3px;
+    padding-left: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.css-xb97g8 {
+    display:none !important;
+}
+
+.customInputGroup span { 
+	position: absolute;
+	margin-left: 5px;
+	height: 25px;
+	display: flex;
+    right: 0;
+	align-items: center;
+}
+
+.togglePassword {
+    top: 0;
+    margin-top:18px;
+    margin-right:5px;
+    z-index: 4;
+    right:0;
+}
+
+.rc-steps-item-title {
+    font-size: 12px !important;
+    margin-bottom: 2px !important;
+    color: #666 !important;
+    font-weight: lighter !important;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.25rem !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.DateInput_input__small {
+    line-height: 1.5 !important;
+    height: calc(1.3em + 0.94rem + 2px) !important;
+    padding: 0.47rem 0.75rem !important;
+    font-size: 0.8125rem !important;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+  
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+  
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+  
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.form-check-input:checked ~ .form-check-label::before, .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #c49700 !important;
+    background-color: #c49700 !important;
+}
+
+input:checked, input::after {
+    background-color: #c49700 !important;
+}
+
+.css-1pahdxg-control:hover {
+    border-color: #3ab44a !important;
+}
+
+.css-1pahdxg-control {
+    border-color: #3ab44a !important;
+    box-shadow: 0 0 0 1px #3ab44a !important;
+}
+
+.rc-steps-item-finish .rc-steps-item-icon {
+    border-color: #3ab44a !important;
+}
+
+.rc-steps-item-process .rc-steps-item-icon {
+    background: #3ab44a !important;
+    border-color: #3ab44a !important;
+}
+
+.rc-steps-item-finish .rc-steps-item-tail:after {
+    background-color: #3ab44a !important;
+}
+
+th .order-4:before {
+    margin-left: 3.5px;
+    content: "\2191";
+    opacity: 0.4;
+}
+
+th .order-4:after {
+    content: "\2193";
+    opacity: 0.4;
+}
+
+th .caret-4-asc:before {
+    margin-left: 1.5px;
+    content: "\2191";
+}
+
+th .caret-4-asc:after {
+    content: "\2193";
+    opacity: 0.4;
+}
+
+th .caret-4-desc:before {
+    margin-left: 1.5px;
+    content: "\2191";
+    opacity: 0.4;
+}
+
+th .caret-4-desc:after {
+    content: "\2193";
+}
+
+/* Navbar */
+@media (min-width: 992px){
+    body[data-layout="horizontal"][data-topbar="light"] .topnav {
+        background-color: rgb(58,180,74) !important;
+    }
+
+    body[data-layout="horizontal"][data-topbar="light"] .topnav .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .modal-title {
+        width:100%;
+    }
+}
